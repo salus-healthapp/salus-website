@@ -1,0 +1,364 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>SALUS · Eat well. Together.</title>
+<meta name="description" content="SALUS is a nutrition app that tracks real food by photo, voice or text, builds a plan for your goal and daily routine, and lets family, friends and coaches keep each other on track.">
+<meta property="og:title" content="SALUS · Eat well. Together.">
+<meta property="og:description" content="Nutrition tracking for real food and real people. Coming soon to Android and iPhone.">
+<meta property="og:image" content="assets/og-image.png">
+<meta name="theme-color" content="#0B2219">
+<link rel="icon" href="assets/favicon.svg" type="image/svg+xml">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+<header>
+  <nav class="wrap nav" aria-label="Main">
+    <a class="brand" href="#top"><img src="assets/logo.svg" alt="" width="34" height="34">SALUS</a>
+    <button class="menu-btn" id="menuBtn" aria-label="Open menu" aria-expanded="false">☰</button>
+    <ul id="menu">
+      <li><a href="#how">How it works</a></li>
+      <li><a href="#goals">Goals</a></li>
+      <li><a href="#features">Features</a></li>
+      <li><a href="#circles">Circles</a></li>
+      <li><a href="#pricing">Pricing</a></li>
+      <li><a href="#faq">FAQ</a></li>
+      <li><a class="btn btn-gold" href="#contact">Contact us</a></li>
+    </ul>
+  </nav>
+</header>
+
+<main id="top">
+
+<!-- HERO -->
+<section class="hero">
+  <div class="wrap hero-grid">
+    <div>
+      <span class="eyebrow" style="color:var(--gold)">Coming soon · Android &amp; iPhone</span>
+      <h1>Eat well.<br><span>Together.</span></h1>
+      <p class="lead">SALUS is a nutrition app built for the food you actually eat. Snap a photo, say it out loud or type it, and SALUS tracks your calories, protein and nutrients against a plan made for your goal and your real day. Then bring your family, friends or coach along to keep each other on track.</p>
+      <div class="hero-cta">
+        <a class="btn btn-gold" href="#contact">Join the waitlist</a>
+        <a class="btn btn-ghost" href="#features">See all features</a>
+      </div>
+      <div class="hero-points"><span>Photo, voice &amp; text logging</span><span>Plans for every goal</span><span>No ads, ever</span></div>
+    </div>
+
+    <div class="phone" role="img" aria-label="SALUS app preview showing today's calories, protein and a smart suggestion">
+      <div class="screen">
+        <div class="notch"></div>
+        <div style="display:flex;justify-content:space-between;align-items:flex-end">
+          <div><div class="s-small">Thursday · Lean bulk · Steady</div><div class="s-title">Today</div></div>
+          <span class="tag gold" style="margin:0">12-day streak</span>
+        </div>
+        <div class="ring-wrap">
+          <svg viewBox="0 0 170 170" width="170" height="170"><circle cx="85" cy="85" r="72" fill="none" stroke="#EEE9DE" stroke-width="15"/><circle cx="85" cy="85" r="72" fill="none" stroke="#E8B44A" stroke-width="15" stroke-linecap="round" stroke-dasharray="452.4" stroke-dashoffset="149" transform="rotate(-90 85 85)"/></svg>
+          <div class="ring-label"><b>1,810</b><span class="s-small">of 2,680 kcal</span></div>
+        </div>
+        <div class="macro">
+          <div>Protein 72/109 g<div class="bar"><i style="width:66%;background:#2E7D56"></i></div></div>
+          <div>Carbs 214 g<div class="bar"><i style="width:62%;background:#C9BFA9"></i></div></div>
+          <div>Fibre 18/30 g<div class="bar"><i style="width:60%;background:#C9BFA9"></i></div></div>
+        </div>
+        <div class="nudge"><b>37 g protein to go.</b> You had eggs this morning, so try paneer bhurji or a bowl of chana for dinner.</div>
+        <div style="margin-top:10px">
+          <div class="meal"><span>Breakfast<em>Egg omelette, 2 toast</em></span><b>420</b></div>
+          <div class="meal"><span>Lunch<em>Rice, dal, chicken curry</em></span><b>760</b></div>
+          <div class="meal"><span>Snack<em>Banana, peanuts</em></span><b>330</b></div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- MISSION -->
+<section id="why">
+  <div class="wrap">
+    <div class="section-head">
+      <span class="eyebrow">Why we're building SALUS</span>
+      <h2>Health is built one meal at a time. Most apps make that harder than it should be.</h2>
+      <p class="lead">Diet apps were designed around packaged food and fixed formulas. They guess home cooking wrong, lock basic features behind paywalls, and leave people to do it alone. We think healthy eating should be accurate, affordable and something you do with the people around you.</p>
+    </div>
+    <div class="stats">
+      <div class="stat"><b>1 in 5</b><p>deaths worldwide in 2017 were linked to diet, about 11 million people. The top causes were too much salt, too few whole grains and too little fruit.</p><a class="src" href="https://www.nutraingredients.com/Article/2019/04/05/Beyond-fat-and-sugar-Diets-low-in-whole-grains-fruit-and-nuts-associated-with-1-in-5-deaths" target="_blank" rel="noopener">GBD 2017, The Lancet</a></div>
+      <div class="stat"><b>250–345</b><p>calories per meal: how much four popular photo-based calorie apps underestimated in an NIH-led test. Fat was the hardest part to see.</p><a class="src" href="https://www.healthday.com/health-news/nutrition/how-accurate-are-photo-based-calorie-apps-4-are-put-to-the-test" target="_blank" rel="noopener">HealthDay, July 2026</a></div>
+      <div class="stat"><b>58%</b><p>fewer new cases of type 2 diabetes in adults who changed how they ate and moved, nearly twice the effect of the medicine tested.</p><a class="src" href="https://pubmed.ncbi.nlm.nih.gov/11832527/" target="_blank" rel="noopener">Diabetes Prevention Program, NEJM 2002</a></div>
+    </div>
+  </div>
+</section>
+
+<!-- HOW IT WORKS -->
+<section id="how" class="dark">
+  <div class="wrap">
+    <div class="section-head">
+      <span class="eyebrow">How it works</span>
+      <h2>From your first minute to your hundredth day.</h2>
+    </div>
+    <div class="steps">
+      <div class="step"><h3>Tell us about you</h3><p>Your goal, height, weight and body measurements, plus how you spend your day and how you train.</p></div>
+      <div class="step"><h3>Get your plan</h3><p>Calories, protein, carbs, fat and fibre worked out from published science. Or enter the plan your coach gave you.</p></div>
+      <div class="step"><h3>Log in seconds</h3><p>Photo, voice, text or barcode. SALUS turns it into foods and portions, and you confirm with a tap.</p></div>
+      <div class="step"><h3>Stay on track together</h3><p>Smart nudges fill your gaps, and your Circle of family, friends or coach keeps you consistent.</p></div>
+    </div>
+  </div>
+</section>
+
+<!-- GOALS -->
+<section id="goals">
+  <div class="wrap">
+    <div class="section-head">
+      <span class="eyebrow">Plans for every goal</span>
+      <h2>Pick what you're working towards. SALUS builds the numbers.</h2>
+      <p class="lead">Every plan starts from your resting energy, calculated with the Mifflin-St Jeor equation, which a systematic review found most often within 10% of measured values (<a href="https://pure.psu.edu/en/publications/comparison-of-predictive-equations-for-resting-metabolic-rate-in-/" target="_blank" rel="noopener">Frankenfield 2005</a>). Your activity is added on top, then adjusted for your goal.</p>
+    </div>
+    <div class="grid g3">
+      <article class="card goal"><span class="tag">Fat loss</span><h3>Lose fat</h3><dl><dt>Calories</dt><dd>About 500 kcal below maintenance to start, aiming for roughly 0.5–1 kg a week (<a href="https://www.health.harvard.edu/weight-loss/calorie-deficit-explained-is-it-a-safe-sustainable-approach-to-weight-loss" target="_blank" rel="noopener">Harvard Health</a>)</dd><dt>Protein</dt><dd>Kept high to protect muscle while you lose fat</dd></dl></article>
+      <article class="card goal"><span class="tag">Balance</span><h3>Maintain &amp; eat better</h3><dl><dt>Calories</dt><dd>At maintenance</dd><dt>Focus</dt><dd>Protein, fibre, 400 g of fruit and vegetables and under 5 g of salt a day (<a href="https://www.who.int/news-room/fact-sheets/detail/healthy-diet" target="_blank" rel="noopener">WHO</a>)</dd></dl></article>
+      <article class="card goal"><span class="tag">Muscle</span><h3>Body recomposition</h3><dl><dt>Calories</dt><dd>At or slightly below maintenance</dd><dt>Protein</dt><dd>1.4–2.0 g per kg a day, the range recommended for most people who exercise (<a href="https://pubmed.ncbi.nlm.nih.gov/28642676/" target="_blank" rel="noopener">ISSN 2017</a>)</dd></dl></article>
+      <article class="card goal"><span class="tag">Muscle</span><h3>Lean bulk</h3><dl><dt>Calories</dt><dd>A small surplus, about +250 kcal a day to start, so gains stay mostly muscle</dd><dt>Protein</dt><dd>About 1.6 g per kg, where extra protein stopped adding muscle in a 49-study analysis (<a href="https://www.news-medical.net/news/20180208/Dietary-protein-supplements-provide-muscle-mass-and-strength-gains-for-weight-lifters.aspx" target="_blank" rel="noopener">Morton 2018</a>)</dd></dl></article>
+      <article class="card goal"><span class="tag">Muscle</span><h3>Bulk</h3><dl><dt>Calories</dt><dd>A larger surplus, about +500 kcal a day to start, for faster size and strength</dd><dt>Protein</dt><dd>1.6–2.0 g per kg a day</dd></dl></article>
+      <article class="card goal"><span class="tag gold">Your way</span><h3>Coach's plan or custom</h3><dl><dt>Bring your own numbers</dt><dd>Enter the calories, macros or meal schedule from your coach, dietitian or mentor. SALUS tracks against it exactly.</dd><dt>Always safe</dt><dd>Plans never go below a healthy minimum</dd></dl></article>
+    </div>
+    <p style="margin-top:22px;font-size:14px;color:var(--muted)">Surplus sizes for lean bulk and bulk are SALUS's starting points, not fixed rules. After 2–3 weeks, adaptive targets adjust them to how your body actually responds.</p>
+  </div>
+</section>
+
+<!-- BODY + DAY -->
+<section class="dark" id="you">
+  <div class="wrap">
+    <div class="grid g2" style="gap:48px">
+      <div>
+        <span class="eyebrow">Your body report</span>
+        <h2>More than one number.</h2>
+        <p class="lead">BMI alone can mislead, especially for muscular people and for South Asians, who face higher health risks at lower BMIs. So SALUS gives a fuller picture.</p>
+        <div class="grid" style="margin-top:28px;gap:14px">
+          <div class="card"><h3>BMI, with the right cut-offs</h3><p>Shown with the WHO action points of 23 and 27.5 for Asian populations, alongside the standard 25 and 30 (<a href="https://www.eurekalert.org/news-releases/536574" target="_blank" rel="noopener">WHO consultation</a>).</p></div>
+          <div class="card"><h3>Waist-to-height ratio</h3><p>Keep your waist under half your height. NICE recommends this simple measure alongside BMI because it reflects belly fat and works across ethnicities (<a href="https://nice.org.uk/news/articles/keep-the-size-of-your-waist-to-less-than-half-of-your-height-nice--recommends" target="_blank" rel="noopener">NICE</a>).</p></div>
+          <div class="card"><h3>Progress over time</h3><p>A weekly weigh-in trend that smooths out daily water swings, plus optional waist and photo check-ins.</p></div>
+        </div>
+      </div>
+      <div>
+        <span class="eyebrow">Your real day</span>
+        <h2>Built around how you live.</h2>
+        <p class="lead">Two simple questions separate your normal day from your exercise, so nothing is counted twice.</p>
+        <div class="grid" style="margin-top:28px;gap:14px">
+          <div class="card"><h3>What's your typical day?</h3><p>Desk job or student · Home and errands · On your feet (teacher, nurse, shop) · Heavy physical work. Based on activity levels set by ICMR-NIN and FAO/WHO (<a href="https://www.nin.res.in/rdabook/brief_note.pdf" target="_blank" rel="noopener">ICMR-NIN</a>).</p></div>
+          <div class="card"><h3>How do you move on top of that?</h3><p>Nothing extra · Daily walks · Gym, yoga or sport · Both. Workouts use standard energy values from the <a href="https://pacompendium.com/wp-content/uploads/2025/02/4_2024_adult-compendium-tracking-guide-1-2024.pdf" target="_blank" rel="noopener">2024 Compendium of Physical Activities</a>.</p></div>
+          <div class="card"><h3>Already track your burn?</h3><p>Sync steps and workouts from Google Health Connect or Apple Health, or type in the calories from your watch or gym machine.</p></div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- LEVELS -->
+<section id="levels">
+  <div class="wrap">
+    <div class="section-head">
+      <span class="eyebrow">Choose your pace</span>
+      <h2>Three ways to follow your plan. Switch any day.</h2>
+      <p class="lead">Life changes week to week. Pick how closely you want to track, and change it whenever you like. Every level keeps you inside a safe range.</p>
+    </div>
+    <div class="levels">
+      <div class="level"><h3>Flex</h3><div class="meter"><i class="on"></i><i></i><i></i></div><p style="color:var(--muted)">For busy weeks, travel or just starting out.</p><ul><li>Focus on calories and protein only</li><li>Wider daily range, about ±15%</li><li>Gentle nudges, a few a day</li></ul></div>
+      <div class="level mid"><h3>Steady</h3><div class="meter"><i class="on"></i><i class="on"></i><i></i></div><p style="color:var(--muted)">For building a lasting habit.</p><ul><li>Calories, protein, carbs, fat and fibre</li><li>Daily range about ±10%</li><li>Pacing check-ins through the day</li></ul></div>
+      <div class="level top"><h3>Strict</h3><div class="meter"><i class="on"></i><i class="on"></i><i class="on"></i></div><p style="color:#5A3A06">For a competition, a cut or a coach's plan.</p><ul><li>Every macro and key nutrient tracked</li><li>Tight range, about ±5%</li><li>Meal-by-meal targets and detailed reports</li></ul></div>
+    </div>
+  </div>
+</section>
+
+<!-- FEATURES -->
+<section id="features" class="dark">
+  <div class="wrap">
+    <div class="section-head">
+      <span class="eyebrow">Everything in one app</span>
+      <h2>All the tracking you expect. Plus what other apps miss.</h2>
+    </div>
+    <div class="grid g3" style="gap:30px 28px">
+      <div class="feat"><span class="ico"><svg viewBox="0 0 24 24" fill="none" stroke="#E8B44A" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M4 8h3l2-3h6l2 3h3v11H4z"/><circle cx="12" cy="13" r="3.5"/></svg></span><div><h3>Photo logging</h3><p>Snap your plate. AI names each dish and portion; you adjust and confirm.</p></div></div>
+      <div class="feat"><span class="ico"><svg viewBox="0 0 24 24" fill="none" stroke="#E8B44A" stroke-width="2" stroke-linecap="round"><rect x="9" y="3" width="6" height="11" rx="3"/><path d="M5 11a7 7 0 0 0 14 0M12 18v3"/></svg></span><div><h3>Voice logging</h3><p>Say "two chapatis and paneer curry, less oil", and it's logged.</p></div></div>
+      <div class="feat"><span class="ico"><svg viewBox="0 0 24 24" fill="none" stroke="#E8B44A" stroke-width="2" stroke-linecap="round"><path d="M4 6h16M4 12h10M4 18h7"/></svg></span><div><h3>Text &amp; search</h3><p>Type a meal in plain words or search a food database covering home, street and packaged food.</p></div></div>
+      <div class="feat"><span class="ico"><svg viewBox="0 0 24 24" fill="none" stroke="#E8B44A" stroke-width="2" stroke-linecap="round"><path d="M4 5v14M7 5v14M11 5v14M14 5v14M18 5v14M20 5v14"/></svg></span><div><h3>Barcode scan</h3><p>Packaged foods in one scan. Always free.</p></div></div>
+      <div class="feat"><span class="ico"><svg viewBox="0 0 24 24" fill="none" stroke="#E8B44A" stroke-width="2" stroke-linecap="round"><path d="M12 3c2 3 5 5 5 9a5 5 0 0 1-10 0c0-4 3-6 5-9z"/></svg></span><div><h3>Oil slider</h3><p>Less, normal or more oil on every cooked dish, the detail photo apps can't see.</p></div></div>
+      <div class="feat"><span class="ico"><svg viewBox="0 0 24 24" fill="none" stroke="#E8B44A" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M4 11h16a8 8 0 0 1-16 0z"/><path d="M9 7c0-2 2-2 2-4M14 7c0-2 2-2 2-4"/></svg></span><div><h3>Family recipes</h3><p>Save a home recipe once, log it in one tap forever. Household portions like katori, cup and roti count.</p></div></div>
+      <div class="feat"><span class="ico"><svg viewBox="0 0 24 24" fill="none" stroke="#E8B44A" stroke-width="2"><circle cx="12" cy="12" r="8"/><path d="M12 4a8 8 0 0 1 8 8" stroke-width="3.5" stroke-linecap="round"/></svg></span><div><h3>Live nutrient dashboard</h3><p>See what you've covered and what's left today: calories, protein, carbs, fat, fibre, water.</p></div></div>
+      <div class="feat"><span class="ico"><svg viewBox="0 0 24 24" fill="none" stroke="#E8B44A" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3l2.5 5 5.5.8-4 3.9.9 5.5L12 15.6 7.1 18.2l.9-5.5-4-3.9 5.5-.8z"/></svg></span><div><h3>Smart suggestions</h3><p>Short on protein? SALUS learns your past meals and suggests something you haven't eaten today.</p></div></div>
+      <div class="feat"><span class="ico"><svg viewBox="0 0 24 24" fill="none" stroke="#E8B44A" stroke-width="2" stroke-linecap="round"><path d="M6 8a6 6 0 0 1 12 0c0 7 3 8 3 8H3s3-1 3-8M10 20a2 2 0 0 0 4 0"/></svg></span><div><h3>Kind reminders</h3><p>Meal, pacing and protein nudges at the right moment. At most three a day by default.</p></div></div>
+      <div class="feat"><span class="ico"><svg viewBox="0 0 24 24" fill="none" stroke="#E8B44A" stroke-width="2" stroke-linecap="round"><path d="M3 17l5-5 4 4 8-8M15 8h5v5"/></svg></span><div><h3>Adaptive targets</h3><p>After 2–3 weeks, your target adjusts to how your weight actually responds.</p></div></div>
+      <div class="feat"><span class="ico"><svg viewBox="0 0 24 24" fill="none" stroke="#E8B44A" stroke-width="2" stroke-linecap="round"><path d="M5 20V12M12 20V5M19 20v-6"/></svg></span><div><h3>Weekly insights</h3><p>Patterns like "you hit protein on all 4 days you had curd at lunch".</p></div></div>
+      <div class="feat"><span class="ico"><svg viewBox="0 0 24 24" fill="none" stroke="#E8B44A" stroke-width="2" stroke-linecap="round"><path d="M12 21s-7-4.5-9.5-9A5.5 5.5 0 0 1 12 6a5.5 5.5 0 0 1 9.5 6C19 16.5 12 21 12 21z"/></svg></span><div><h3>Calm &amp; Festival modes</h3><p>Hide numbers when you need a break, relax targets for celebrations. No guilt.</p></div></div>
+    </div>
+  </div>
+</section>
+
+<!-- CIRCLES -->
+<section id="circles">
+  <div class="wrap">
+    <div class="grid g2" style="gap:56px;align-items:center">
+      <div>
+        <span class="eyebrow">Circles · our favourite part</span>
+        <h2>Healthy eating is easier with your people.</h2>
+        <p class="lead">Create private Circles with the people who keep you going. Everything is opt-in: you choose who joins and what they see, and your weight is never shared.</p>
+        <div class="grid" style="margin-top:28px;gap:14px">
+          <div class="card"><span class="tag">Family</span><h3>Look out for each other</h3><p>Parents, partners and siblings cheer each other's streaks and protein goals. Adults only at launch; parent-managed teen profiles will come later, with parental consent and no weight-loss targets for under-18s.</p></div>
+          <div class="card"><span class="tag gold">Coaches &amp; trainers</span><h3>See every client at a glance</h3><p>Trainers and dietitians invite clients, share a plan, and see who's logging and hitting targets, without chasing screenshots on WhatsApp.</p></div>
+          <div class="card"><span class="tag">Friends</span><h3>Turn it into a challenge</h3><p>Weekly Circle challenges and a friendly leaderboard for college friends, office teams or gym crews.</p></div>
+        </div>
+      </div>
+      <div class="circle-dash" role="img" aria-label="Example Circle dashboard showing consistency scores, streaks and protein hit rates">
+        <div style="display:flex;justify-content:space-between;align-items:center"><div><div class="s-small">Circle dashboard · this week</div><div style="font-size:22px;font-weight:800">Gym crew</div></div><span class="tag gold" style="margin:0">4 members</span></div>
+        <div style="display:grid;grid-template-columns:repeat(3,1fr);gap:10px;margin:18px 0 6px;font-size:12px;color:var(--muted);text-align:center">
+          <div style="background:var(--paper);border-radius:12px;padding:10px"><b style="display:block;font-size:20px;color:var(--ink)">88</b>Avg consistency</div>
+          <div style="background:var(--paper);border-radius:12px;padding:10px"><b style="display:block;font-size:20px;color:var(--ink)">26/28</b>Days logged</div>
+          <div style="background:var(--paper);border-radius:12px;padding:10px"><b style="display:block;font-size:20px;color:var(--ink)">79%</b>Protein days</div>
+        </div>
+        <div class="member"><span class="av" style="background:#C2557A">P</span><div><b>Priya</b><small>34-day streak · protein 7/7</small></div><span class="score">96</span></div>
+        <div class="member"><span class="av" style="background:#1F5C40">Y</span><div><b>You</b><small>12-day streak · protein 6/7</small></div><span class="score">91</span></div>
+        <div class="member"><span class="av" style="background:#3C6E9E">R</span><div><b>Rahul</b><small>9-day streak · protein 5/7</small></div><span class="score">84</span></div>
+        <div class="member"><span class="av" style="background:#B9771A">K</span><div><b>Kiran</b><small>5-day streak · protein 4/7</small></div><span class="score">79</span></div>
+        <p style="font-size:12.5px;color:var(--muted);margin-top:12px">Example data. Scores out of 100.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- CONSISTENCY SCORE -->
+<section class="dark" id="champions">
+  <div class="wrap">
+    <div class="section-head">
+      <span class="eyebrow">The consistency score &amp; Champions</span>
+      <h2>We reward showing up, not starving.</h2>
+      <p class="lead">Every Circle dashboard and the monthly global Champions board use one fair measure: a consistency score from 0 to 100. The top 10 in the world each month get 50% off their next month of Premium.</p>
+    </div>
+    <div class="table-wrap">
+      <table>
+        <thead><tr><th>What's measured</th><th>Why it's in the score</th></tr></thead>
+        <tbody>
+          <tr><td><b>Days logged</b></td><td>Tracking regularly is the habit everything else depends on</td></tr>
+          <tr><td><b>Days inside your safe calorie range</b></td><td>Rewards hitting your own plan, whether that's a cut, maintenance or a bulk</td></tr>
+          <tr><td><b>Protein goal hit</b></td><td>The nutrient most people fall short on, and key for every goal</td></tr>
+          <tr><td><b>Streak (shown, not scored)</b></td><td>Motivating to see; one free rest day a week keeps it fair</td></tr>
+          <tr><td><b>Never counted</b></td><td>Body weight, weight lost, or eating the fewest calories. A day below your safety floor scores zero.</td></tr>
+        </tbody>
+      </table>
+    </div>
+    <p style="margin-top:20px;font-size:15px">Why so careful? Tracking apps that reward eating less can push people toward unhealthy restriction (<a href="https://www.theswaddle.com/health-tracking-apps-provide-a-worrying-pipeline-to-eating-disorders-better-tech-design-can-fix-that" target="_blank" rel="noopener">The Swaddle</a>). Champions is opt-in, adults only, and uses a display name.</p>
+  </div>
+</section>
+
+<!-- TRUST -->
+<section id="trust">
+  <div class="wrap">
+    <div class="section-head">
+      <span class="eyebrow">Our promises</span>
+      <h2>Built on trust, from day one.</h2>
+    </div>
+    <div class="grid g4">
+      <div class="card"><h3>No ads</h3><p>Not in the free plan, not in Premium. Ads were among the top complaints about diet apps (<a href="https://unstar.app/blog/calorie-tracking-apps-ranked-1-star-reviews-2026" target="_blank" rel="noopener">Unstar</a>).</p></div>
+      <div class="card"><h3>Tracking stays free</h3><p>Core logging and barcode scanning will never move behind a paywall.</p></div>
+      <div class="card"><h3>Your data, your control</h3><p>Export or delete everything in two taps. Built for India's data protection rules.</p></div>
+      <div class="card"><h3>Safe by design</h3><p>Healthy minimums, a capped rate of weight loss, and a track-only mode for anyone who needs it.</p></div>
+    </div>
+  </div>
+</section>
+
+<!-- PRICING -->
+<section id="pricing" style="background:var(--cream)">
+  <div class="wrap">
+    <div class="section-head">
+      <span class="eyebrow">Plans</span>
+      <h2>Free to track. Premium to go further.</h2>
+    </div>
+    <div class="grid g3">
+      <div class="price"><h3>Free</h3><div class="amt">₹0</div><p class="note">Forever, no ads</p><ul><li>Personal plan for any goal</li><li>Search, barcode, text logging</li><li>Oil slider and family recipes</li><li>Live dashboard and reminders</li><li>Circles and Champions</li><li>5 photo or voice logs a month</li></ul></div>
+      <div class="price hot"><h3>Premium</h3><div class="amt">₹99 <small>/ month</small></div><p class="note">or ₹799 a year · 7-day free trial</p><ul><li>Everything in Free</li><li>Unlimited photo and voice logging</li><li>Adaptive targets</li><li>Smart suggestions and weekly insights</li><li>Strict level with meal-by-meal targets</li><li>Coach dashboard for trainers</li></ul></div>
+      <div class="price"><h3>Founding members</h3><div class="amt">₹499 <small>/ year</small></div><p class="note">For the first 1,000 people</p><ul><li>Everything in Premium</li><li>Price locked while you stay subscribed</li><li>A say in which features we build next</li></ul><a class="btn btn-dark" href="#contact" style="margin-top:auto;align-self:flex-start;margin-top:24px">Reserve a spot</a></div>
+    </div>
+    <p style="margin-top:18px;font-size:14px;color:var(--muted)">Prices shown for India. Plans and prices may change before launch.</p>
+  </div>
+</section>
+
+<!-- FAQ -->
+<section id="faq">
+  <div class="wrap" style="max-width:860px">
+    <div class="section-head"><span class="eyebrow">FAQ</span><h2>Questions people ask us.</h2></div>
+    <details><summary>When is SALUS launching?</summary><p>Soon, on Android first and then iPhone. Join the waitlist and you'll hear first.</p></details>
+    <details><summary>Is SALUS a medical app?</summary><p>No. SALUS is a nutrition and habit tracker, not a medical device, and it doesn't diagnose or treat any condition. If you have a health condition, are pregnant or breastfeeding, plan your goals with your doctor. SALUS offers a track-only mode for this.</p></details>
+    <details><summary>How accurate is photo logging?</summary><p>AI photo estimates can miss hidden oil and portions, which is why SALUS always lets you adjust portions and oil before saving, and uses its own food database for the final numbers.</p></details>
+    <details><summary>Can my coach or dietitian use SALUS with me?</summary><p>Yes. Enter your coach's plan as a custom plan, or invite them to a Circle where they can see your logging and consistency.</p></details>
+    <details><summary>Can my family see my weight?</summary><p>Never. Circles show streaks, consistency and goal hits only, and you can hide your activity or leave a Circle at any time.</p></details>
+    <details><summary>Which foods does SALUS know?</summary><p>Home-cooked, street, restaurant and packaged food, starting with Indian cuisines and growing worldwide. You can also add your own foods and family recipes.</p></details>
+    <details><summary>Who can use SALUS?</summary><p>Adults 18 and over at launch.</p></details>
+  </div>
+</section>
+
+<!-- SOURCES -->
+<section id="sources" style="background:var(--cream);padding:72px 0">
+  <div class="wrap">
+    <div class="section-head" style="margin-bottom:28px"><span class="eyebrow">The science behind SALUS</span><h2 style="font-size:32px">Sources</h2></div>
+    <ol class="sources">
+      <li><a href="https://pure.psu.edu/en/publications/comparison-of-predictive-equations-for-resting-metabolic-rate-in-/" target="_blank" rel="noopener">Frankenfield et al., 2005</a>: resting metabolic rate equations</li>
+      <li><a href="https://www.nin.res.in/rdabook/brief_note.pdf" target="_blank" rel="noopener">ICMR-NIN, Nutrient Requirements for Indians</a></li>
+      <li><a href="https://pacompendium.com/wp-content/uploads/2025/02/4_2024_adult-compendium-tracking-guide-1-2024.pdf" target="_blank" rel="noopener">2024 Adult Compendium of Physical Activities</a></li>
+      <li><a href="https://pubmed.ncbi.nlm.nih.gov/28642676/" target="_blank" rel="noopener">ISSN position stand: protein and exercise, 2017</a></li>
+      <li><a href="https://www.news-medical.net/news/20180208/Dietary-protein-supplements-provide-muscle-mass-and-strength-gains-for-weight-lifters.aspx" target="_blank" rel="noopener">Morton et al., 2018</a>: protein and muscle gains</li>
+      <li><a href="https://www.health.harvard.edu/weight-loss/calorie-deficit-explained-is-it-a-safe-sustainable-approach-to-weight-loss" target="_blank" rel="noopener">Harvard Health</a>: calorie deficits</li>
+      <li><a href="https://www.who.int/news-room/fact-sheets/detail/healthy-diet" target="_blank" rel="noopener">WHO healthy diet fact sheet</a></li>
+      <li><a href="https://www.eurekalert.org/news-releases/536574" target="_blank" rel="noopener">WHO consultation on BMI for Asian populations</a></li>
+      <li><a href="https://nice.org.uk/news/articles/keep-the-size-of-your-waist-to-less-than-half-of-your-height-nice--recommends" target="_blank" rel="noopener">NICE: waist-to-height ratio</a></li>
+      <li><a href="https://www.nutraingredients.com/Article/2019/04/05/Beyond-fat-and-sugar-Diets-low-in-whole-grains-fruit-and-nuts-associated-with-1-in-5-deaths" target="_blank" rel="noopener">GBD 2017 Diet Collaborators, The Lancet 2019</a></li>
+      <li><a href="https://pubmed.ncbi.nlm.nih.gov/11832527/" target="_blank" rel="noopener">Diabetes Prevention Program, NEJM 2002</a></li>
+      <li><a href="https://www.healthday.com/health-news/nutrition/how-accurate-are-photo-based-calorie-apps-4-are-put-to-the-test" target="_blank" rel="noopener">HealthDay: photo-based calorie apps tested</a></li>
+      <li><a href="https://unstar.app/blog/calorie-tracking-apps-ranked-1-star-reviews-2026" target="_blank" rel="noopener">Unstar: diet app 1-star reviews, 2026</a></li>
+      <li><a href="https://www.theswaddle.com/health-tracking-apps-provide-a-worrying-pipeline-to-eating-disorders-better-tech-design-can-fix-that" target="_blank" rel="noopener">The Swaddle: tracking apps and eating-disorder risk</a></li>
+    </ol>
+  </div>
+</section>
+
+<!-- CONTACT -->
+<section id="contact" class="dark">
+  <div class="wrap contact-box">
+    <div>
+      <span class="eyebrow">Contact us</span>
+      <h2>Tell us what you want SALUS to do.</h2>
+      <p class="lead">Want early access, have a feature idea, or are you a coach, gym or company interested in working with us? Email us. A real person reads every message.</p>
+      <div class="email">
+        <code id="emailText">salus.team.healthapp@gmail.com</code>
+        <button class="btn btn-gold" id="copyBtn" type="button">Copy email</button>
+        <span class="copied" id="copied" aria-live="polite"></span>
+      </div>
+      <div class="hero-cta">
+        <a class="btn btn-ghost" id="mailWait" href="mailto:salus.team.healthapp@gmail.com?subject=Join%20the%20SALUS%20waitlist">Join the waitlist</a>
+        <a class="btn btn-ghost" id="mailIdea" href="mailto:salus.team.healthapp@gmail.com?subject=Feature%20idea%20for%20SALUS">Suggest a feature</a>
+      </div>
+    </div>
+    <div class="card" style="padding:30px">
+      <h3>Good things to include</h3>
+      <ul style="list-style:none;margin-top:14px;display:grid;gap:10px;color:rgba(244,239,227,.8);font-size:16px">
+        <li>✓ Your goal: lose fat, maintain, recomp or build muscle</li>
+        <li>✓ The feature you wish your current app had</li>
+        <li>✓ The foods or cuisine you eat most</li>
+        <li>✓ For coaches: how many clients you track</li>
+      </ul>
+      <p style="margin-top:18px;font-size:15px">Instagram: <b>salus_healthapp</b></p>
+    </div>
+  </div>
+</section>
+</main>
+
+<footer>
+  <div class="wrap row">
+    <div class="brand" style="font-size:16px"><img src="assets/logo.svg" alt="" width="28" height="28">SALUS</div>
+    <span>Named after the Roman goddess of health. SALUS is not a medical device.</span>
+    <span>© <span id="year">2026</span> SALUS</span>
+  </div>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
