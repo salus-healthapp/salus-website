@@ -1,8 +1,8 @@
 /* SALUS website — brand: curry-leaf green, saffron gold, warm cream */
 :root{
-  --deep:#0B2219; --deep-2:#123326; --leaf:#1F5C40; --leaf-2:#2E7D56; --leaf-soft:#E3EFE7;
-  --gold:#E8B44A; --gold-dark:#9A6A12; --gold-soft:#FBEFD2;
-  --cream:#F4EFE3; --paper:#FBF9F4; --ink:#12241B; --muted:#56655C; --line:#E2DCCD;
+  --deep:#0E3B28; --deep-2:#145036; --leaf:#1F5C40; --leaf-2:#2E7D56; --leaf-soft:#E3EFE7;
+  --gold:#D4A64A; --gold-dark:#9A6A12; --gold-soft:#FBEFD2;
+  --cream:#F3EFE6; --paper:#FAF8F3; --ink:#12241B; --muted:#56655C; --line:#E2DCCD;
   --radius:18px; --max:1160px;
   --font:"Inter",system-ui,-apple-system,"Segoe UI",Roboto,sans-serif;
 }
@@ -178,3 +178,6 @@ footer .row{display:flex;justify-content:space-between;gap:20px;flex-wrap:wrap;a
 }
 @media (prefers-reduced-motion:reduce){html{scroll-behavior:auto}}
 .nav ul a.btn-gold{color:var(--deep)}
+
+/* Forest Luxe: serif headings to match the app */
+h1,h2,.price .amt,.brand{font-family:"Fraunces",Georgia,serif;font-weight:600;letter-spacing:-.01em}
